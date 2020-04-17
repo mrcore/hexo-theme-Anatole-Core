@@ -1,0 +1,28 @@
+extends partial/layout
+
+block site_title
+    if is_current('tags')
+        !=  "标签 · " + config.title
+    else
+        != page.title + " · " + config.title
+
+block description
+    - var desc = page.desc || strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150);
+    meta(name="description", content=desc)
+
+block content
+
+    if is_current('tags')
+        .autopagerize_page_element: .content
+            .tag_box
+                script(type="text/javascript" charset="utf-8" src="/js/tagcloud.js")
+                script(type="text/javascript" charset="utf-8" src="/js/tagcanvas.js")
+                #myCanvasContainer.widget.tagcloud(align='center')
+                    canvas#resCanvas()
+                        != tagcloud()
+    else
+        .autopagerize_page_element: .content: .post-page
+            include mixins
+            +make_post(page, true)
+            if page.comments
+                include partial/comments

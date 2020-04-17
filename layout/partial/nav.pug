@@ -1,0 +1,40 @@
+.page-top.animated.fadeInDown
+  .nav
+    li
+      if is_home()
+        a.current(href="/")= __('Home')					
+      else
+        a(href="/")= __('Home')	
+
+    li
+      if is_archive()
+        a.current(href="/archives")= __('Archives')
+      else
+        a(href="/archives")= __('Archives')
+
+    li
+      if is_current('tags')
+        a.current(href="/tags")= __('Tags')     
+      else
+        a(href="/tags")= __('Tags')
+
+    li
+      if is_current('about')
+        a.current(href="/about")= __('About')     
+      else
+        a(href="/about")= __('About')
+
+    li
+      if is_current('guestbook')
+        a.current(href="/guestbook")= __('Guestbook')					
+      else
+        a(href="/guestbook")= __('Guestbook')		
+
+
+  .information
+    .back_btn
+      li
+        if is_post()
+          a.fa.fa-chevron-left(onclick="window.history.go(-1)") 
+        else
+          a.fa.fa-chevron-left(onclick="window.history.go(-1)",style="display:none;") 

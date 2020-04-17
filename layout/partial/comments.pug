@@ -1,0 +1,20 @@
+if theme.valine
+    if theme.valine.enable == true
+        a#comments
+        #vcomments(style="margin:0 30px;")
+        script(src='//cdn1.lncld.net/static/js/3.0.4/av-min.js')
+        script(src='//cdn.jsdelivr.net/gh/xcss/valine@latest/dist/Valine.min.js')
+        script.
+          var valine = new Valine({
+            el:'#vcomments',
+            notify:#{theme.valine.notify} || false, 
+            verify:#{theme.valine.verify}|| false, 
+            app_id:'#{theme.valine.appid}',
+            app_key:'#{theme.valine.appkey}',
+            placeholder:'#{theme.valine.placeholder}',
+            path: window.location.pathname,
+            serverURLs: '#{theme.valine.serverURLs}',
+            visitor:true,
+            recordIP:true,
+            avatar:'#{theme.valine.avatar}'
+          })

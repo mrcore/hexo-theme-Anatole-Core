@@ -1,0 +1,33 @@
+# 博客配置
+keywords: 极限博客,极限Blog,博客,极限
+author: Core,x@jixian.io
+description: 心之所愿，无事不成。<br> Nothing is impossible to a willing heart.
+avatar: /images/favicon.ico
+
+# 社交账号
+github: https://github.com/mrcore
+mail: mailto:x@jixian.io
+zhihu: https://zhihu.com/people/
+QQ: http://sighttp.qq.com/authd?IDKEY=
+
+  
+# Valine 评论，如何配置请看官网 https://valine.js.org
+valine:
+  enable: true # if you want use valine, please set enable: true
+  appid: 
+  appkey: 
+  notify: false # true/false:mail notify !!!Test,Caution. https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE
+  verify: false # true/false:verify code
+  avatar: mp # avatar style https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
+  placeholder: 念念不忘，必有回响... # comment box placeholder
+  serverURLs: 
+
+# 百度统计设置
+# 请访问 https://tongji.baidu.com/ 
+# 获取统计JS代码放入 anatole-core/source/js/baidu-tongji.js
+# 不想设置请进入 anatole-core/layout/partial/layout.pug 文件
+# 删除 script(src=url_for("/js/baidu-tongji.js")) 此行
+
+
+# 左下角版权信息、备案号修改
+# 进入 anatole-core/layout/partial/footer.pug 自行设置
