@@ -21,7 +21,7 @@ function addLoadEvent(func) {
         if(textHeight>40){
            textHeight = 40
         }
-        var wid2 = parseInt(document.body.clientWidth * 0.48)
+        var wid2 = parseInt(document.body.clientWidth * 0.45)
         if(wid2<320){
             wid2 = 320
          }
