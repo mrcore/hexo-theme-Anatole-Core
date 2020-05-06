@@ -28,6 +28,7 @@ valine:
 # 不想设置请进入 anatole-core/layout/partial/layout.pug 文件
 # 删除 script(src=url_for("/js/baidu-tongji.js")) 此行
 
+# 留言板页面和关于页面，请在source文件夹下新建guestbook、about文件夹，然后再文件夹新建index.md文件；如不需要评论请在两个---中增加comments: false。
 
 # 左下角版权信息、备案号修改
 # 进入 anatole-core/layout/partial/footer.pug 自行设置
