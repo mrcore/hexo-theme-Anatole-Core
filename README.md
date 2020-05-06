@@ -21,6 +21,11 @@ Demo : https://www.jixian.io
 git clone https://github.com/mrcore/hexo-theme-Anatole-Core.git themes/anatole-core
 
 或者直接下载主题zip包解压至主题目录下，重命名为anatole-core
+
+# 安装hexo-renderer-pug
+
+npm install hexo-renderer-pug --save
+
 ```
 
 ### 配置
