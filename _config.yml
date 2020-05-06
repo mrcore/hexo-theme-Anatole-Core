@@ -31,3 +31,6 @@ valine:
 
 # 左下角版权信息、备案号修改
 # 进入 anatole-core/layout/partial/footer.pug 自行设置
+
+# 如有报错，请查看主题下package.json文件的插件是否已经安装，安装版本一般无所谓，已安装的插件可以在hexo目录下的package.json查看。
+# 安装命令如下 npm install 插件名 --save
