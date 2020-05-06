@@ -5,7 +5,7 @@ title
     block site_title
         = config.title
 block description
-    meta(name="description", content= config.description ? config.description : 'A Blog Powered By Hexo')
+    meta(name="description", content= theme.description ? theme.description : 'A Blog Powered By Hexo')
 
 if page.keywords
     meta(name="keywords", content= page.keywords)

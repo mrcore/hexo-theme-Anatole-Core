@@ -1,8 +1,10 @@
 # 博客配置
 keywords: 极限博客,极限Blog,博客,极限
-author: Core,x@jixian.io
+author: Core
 description: 心之所愿，无事不成。<br> Nothing is impossible to a willing heart.
 avatar: /images/favicon.ico
+beian: 粤ICP备15011643号
+copyright: 2017 - 2020 
 
 # 社交账号
 github: https://github.com/mrcore
@@ -30,8 +32,7 @@ valine:
 
 # 留言板页面和关于页面，请在source文件夹下新建guestbook、about文件夹，然后再文件夹新建index.md文件；如不需要评论请在两个---中增加comments: false。
 
-# 左下角版权信息、备案号修改
-# 进入 anatole-core/layout/partial/footer.pug 自行设置
-
 # 如有报错，请查看主题下package.json文件的插件是否已经安装，安装版本一般无所谓，已安装的插件可以在hexo目录下的package.json查看。
 # 安装命令如下 npm install 插件名 --save
+
+# 左下角的猫：https://github.com/EYHN/hexo-helper-live2d
