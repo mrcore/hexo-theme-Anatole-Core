@@ -4,6 +4,7 @@ author: Core
 description: 心之所愿，无事不成。<br> Nothing is impossible to a willing heart.
 avatar: /images/favicon.ico
 beian: 粤ICP备15011643号
+gongan: 粤公网安备 44030402003967号
 copyright: 2017 - 2020 
 
 # 社交账号
@@ -34,5 +35,10 @@ valine:
 
 # 如有报错，请查看主题下package.json文件的插件是否已经安装，安装版本一般无所谓，已安装的插件可以在hexo目录下的package.json查看。
 # 安装命令如下 npm install 插件名 --save
+# 一般是没有安装下面两个
+# npm install --save hexo-renderer-pug
+# npm install --save hexo-tag-aplayer
 
 # 左下角的猫：https://github.com/EYHN/hexo-helper-live2d
+# npm install --save hexo-helper-live2d
+# npm install --save live2d-widget-model-tororo

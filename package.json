@@ -15,5 +15,8 @@
     "hexo-renderer-sass": "^0.1.2",
     "hexo-renderer-stylus": "^0.2.3",
     "hexo-server": "^0.1.2",
+    "live2d-widget-model-tororo": "^1.0.5",
+    "hexo-helper-live2d": "^3.1.1",
+    "hexo-tag-aplayer": "^3.0.4",
   }
 }
