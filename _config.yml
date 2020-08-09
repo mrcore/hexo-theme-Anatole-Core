@@ -42,3 +42,26 @@ valine:
 # 左下角的猫：https://github.com/EYHN/hexo-helper-live2d
 # npm install --save hexo-helper-live2d
 # npm install --save live2d-widget-model-tororo
+# 在hexo的_config.yml的文件下添加(非主题配置文件)
+# live2d:
+#   enable: true
+#   scriptFrom: local
+#   pluginRootPath: live2dw/
+#   pluginJsPath: lib/
+#   pluginModelPath: assets/
+#   tagMode: false
+#   debug: false
+#   model:
+#     use: live2d-widget-model-tororo
+#   display:
+#     position: left
+#     width: 200
+#     height: 400
+#     hOffset: 5
+#     vOffset: -38
+#   mobile:
+#     show: false
+#     scale: 0.2
+#   react:
+#     opacityDefault: 0.8
+#     opacityOnHover: 0.2
