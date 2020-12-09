@@ -2,6 +2,7 @@
 keywords: 极限博客,极限Blog,博客,极限
 author: Core
 description: 心之所愿，无事不成。<br> Nothing is impossible to a willing heart.
+# 如需修改icon,请替换 source/images/favicon.ico 文件
 avatar: /images/favicon.ico
 beian: 粤ICP备15011643号
 gongan: 粤公网安备 44030402003967号
